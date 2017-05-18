@@ -31,5 +31,11 @@ config(function($stateProvider) {
             parent: 'detail',
             templateUrl: 'PokemonDetail/PokemonDetailEdit.html',
             controller: function() {}
+        })
+        .state({
+            name: 'myaccount',
+            url: '/myaccount',
+            templateUrl: 'Account/account.html',
+            controller: function() {}
         });
 });

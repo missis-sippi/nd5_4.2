@@ -21,24 +21,10 @@
 
 <body>
     <div class="container">
-
-        <div class="panel panel-default">
-            <div class="panel-body">
-
-                <div class="btn-group" role="group">
-                    <a class="btn btn-default" data-ui-sref="list">Список</a>
-                    <a class="btn btn-default" data-ui-sref="createNewPokemon">Добавить нового</a>
-                </div>
-
-            </div>
-        </div>
-
+        <menu></menu>
         <shopping-cart-component></shopping-cart-component>
-
         <ui-view></ui-view>
-
     </div>
-
 
 
     <!-- In production use:
@@ -60,6 +46,9 @@
 
     <script src="ShoppingCartStore/ShoppingCartStore.js"></script>
     <script src="ShoppingCartComponent/ShoppingCartComponent.js"></script>
+
+    <script src="Account/accountCtrl.js"></script>
+    <script src="Menu/menuCtrl.js"></script>
 </body>
 
 </html>
